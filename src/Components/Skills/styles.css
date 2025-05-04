@@ -1,0 +1,31 @@
+
+h1{
+    padding: 0 auto;
+    margin: 0 auto;
+    font-size: 50px;
+    color: yellow;
+    font-family: 'Bungee', cursive;
+  }
+  h3{
+    padding: 0 auto;
+    margin: 0 auto;
+    font-size: 1.5rem;
+    color: red;
+  }
+  h5{
+    text-align: center;
+    line-height: 1.5rem;
+    margin:10px auto;
+    color:#fff;
+  }
+  .skillicons{
+    font-size: 80px;
+    color:#eeee;
+  }
+  .c{
+    margin: 18px auto;
+  }
+  .row{
+    margin: 30px auto;
+  }
+  

@@ -1,0 +1,40 @@
+.exp_detail {
+  position: relative;
+  background: #fff;
+  padding: 20px 25px;
+  margin: 20px 120px;
+  border-radius: 5px;
+}
+.exp_img {
+  width: 30%;
+  padding-bottom: 90px;
+  height: 100%;
+  float: left;
+}
+
+.exp_detail img {
+  /* margin-top: 50px; */
+  width: 20vw;
+  margin-right: 20px;
+  max-height: 150px;
+}
+.exp_pos {
+  font-weight: bold;
+}
+
+@media (max-width: 550px) {
+  .exp_detail {
+    margin: 10px 15px;
+  }
+  .exp_img {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    float: none;
+  }
+  .exp_detail img {
+    margin-top: 0;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+}

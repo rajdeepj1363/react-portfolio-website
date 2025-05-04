@@ -16,16 +16,12 @@ body
     background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/demo-bg.jpg");
  }
  
- .main-title {
-    position: absolute;
-    margin: 0;
-    padding: 0;
-    color: #F9F1E9;
-    text-align: center;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate3d(-50%, -50%, 0);
-    transform: translate3d(-50%, -50%, 0);
+ .main-title{
+   text-align: center;
+   line-height: 0.9;
+   color:yellow;
+   font-size:4rem;
+   font-family:'Bungee', cursive;
  }
  
  .demo .main-title {
@@ -43,3 +39,25 @@ body
        font-size: 3em;
     }
  }
+
+ .banner{
+   position: absolute;
+   margin: 0;
+   padding: 0;
+   color: #F9F1E9;
+   text-align: center;
+   top: 50%;
+   left: 50%;
+   -webkit-transform: translate3d(-50%, -50%, 0);
+   transform: translate3d(-50%, -50%, 0);
+ }
+
+ .bannertxt1{
+   color:#fff;
+   font-size:25px;
+ }
+ .bannertxt2{
+   color:#fff;
+   font-size:25px;
+ }
+ 
